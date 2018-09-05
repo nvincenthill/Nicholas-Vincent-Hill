@@ -32,7 +32,7 @@ body {
 h1 {
   color: var(--color1);
   opacity: 0.95;
-  font-size: 7vw;
+  font-size: 6vw;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -281,7 +281,7 @@ h2 {
 }
 
 .about-headshot {
-  height: 35vh;
+  height: 25vh;
   border-radius: 50%;
   transition: 0.5s ease-out;
 }
