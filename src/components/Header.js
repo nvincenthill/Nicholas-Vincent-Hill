@@ -30,9 +30,9 @@ class Header extends React.Component {
       <React.Fragment>
         <div className="title_container">
           {leftButton}
-          <Fade>
-            <h1 className="title-name">{this.props.title}</h1>
-          </Fade>
+          {/* <Fade> */}
+          <h1 className="title-name">{this.props.title}</h1>
+          {/* </Fade> */}
           {this.props.buttonsHidden ? leftButton : <HomeButton />}
         </div>
       </React.Fragment>

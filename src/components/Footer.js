@@ -24,8 +24,7 @@ class Footer extends React.Component {
   };
 
   componentDidMount() {
-    window.addEventListener(
-      "scroll", this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   }
 
   componentDidUpdate() {}
@@ -37,9 +36,9 @@ class Footer extends React.Component {
   render() {
     return (
       <Fade>
-      <div className={"footer"}>
-          <p id="footer_name">Copyright © 2018 Melody Shieh</p>
-      </div>
+        <div className={"footer"}>
+          <p id="footer_name">Copyright © 2018 Nicholas Vincent-Hill</p>
+        </div>
       </Fade>
     );
   }

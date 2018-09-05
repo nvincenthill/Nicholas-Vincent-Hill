@@ -26,13 +26,17 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Header title="Melody Shieh" icon="ios-contact" buttonsHidden="true" />
+        <Header
+          title="Nicholas Vincent-Hill"
+          icon="ios-contact"
+          buttonsHidden="true"
+        />
         <NavCard handleRoute={this.handleRoute} />
         <Fade>
           <div>
             <h2 className="about-tagline">
-              I'm a consultant who specializes in business analytics and
-              corporate performance improvement
+              I'm a software engineer designing and building responsive
+              mobile-first web applications
             </h2>
           </div>
         </Fade>
@@ -40,8 +44,7 @@ class App extends React.Component {
         <Fade>
           <div>
             <h2 className="about-tagline-mobile">
-              I'm a consultant who specializes in business analytics and
-              corporate performance improvement
+              I'm an engineer designing responsive mobile-first web applications
             </h2>
           </div>
         </Fade>
