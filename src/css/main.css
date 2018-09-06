@@ -675,3 +675,7 @@ canvas.react-pdf__Page__canvas {
 .resume-download-button {
   margin: 2rem 0;
 }
+
+.prettyprint {
+  padding: 1.7rem;
+}

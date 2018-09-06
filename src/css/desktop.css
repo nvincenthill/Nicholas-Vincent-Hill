@@ -109,9 +109,9 @@
     pointer-events: none;
     background: var(--color1);
     position: absolute;
-    width: 50vw;
+    width: 80rem;
     height: 40vh;
-    top: 57vh;
+    top: 48vh;
     left: 36vw;
     opacity: 0;
     font-family: var(--second-font), sans-serif;
@@ -131,6 +131,7 @@
   }
 
   .about-description-text {
+    text-align: left;
     font-size: 2vmin;
     grid-column-start: second;
     grid-column-end: end;

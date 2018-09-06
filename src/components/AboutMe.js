@@ -60,7 +60,7 @@ class AboutMe extends React.Component {
                 I'd love to work with you and add value to your firm.
               </span>
             </p> */}
-            <div className="about-contact">
+            {/* <div className="about-contact">
               <Link to="/Contact/">
                 <Ionicon
                   icon="ios-contact"
@@ -72,7 +72,7 @@ class AboutMe extends React.Component {
 
                 <p className="about-contact"> Contact Nick! </p>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </React.Fragment>

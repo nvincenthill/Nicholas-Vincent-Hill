@@ -1,11 +1,11 @@
 import React from "react";
-
+import Code from "react-code-prettify";
 class Blurb extends React.Component {
   state = {
-    image1: "../images/headshot1.png",
-    image2: "../images/headshot1.png",
+    image1: "../images/nickheadshot.jpg",
+    image2: "../images/nickheadshot.jpg",
     currentImageNumber: 1,
-    currentImage: "../images/headshot1.png"
+    currentImage: "../images/nickheadshot.jpg"
   };
 
   updatePhoto() {
@@ -24,6 +24,17 @@ class Blurb extends React.Component {
   componentDidUpdate() {}
   componentWillUnmount() {}
   render() {
+    const codeString = `let Nick = () => {
+      let aboutMe = {
+        skills: ['JS', 'CSS', 'Git', 'react', 'trading'],
+        activities: ['hiking', 'creative coding']
+      };
+      for (let i = 0; i < this.aboutMe.skills.length; i += 1) {
+        alert('Work harder and always keep learning!');
+      }
+      const objective = 'Find an amazing job';
+      return objective ? 'Profit!' : 'FizzBuzz?!';
+    };`;
     return (
       <div>
         <div
@@ -38,14 +49,7 @@ class Blurb extends React.Component {
           />
 
           <div className="about-blurb">
-            <p className="about-blurb-text">
-              "Melody was always inquisitive, gave great recommendations, and
-              exhibited wisdom way beyond her years. I would hire her again in a
-              nanosecond!"
-            </p>
-            <p className="about-blurb-text-footer">
-              Vincent K., Dang Foods CEO
-            </p>
+            <Code codeString={codeString} language="javascript" />
           </div>
         </div>
       </div>
