@@ -95,7 +95,6 @@
   .about-headshot-container:hover .about-headshot {
     transition: 0.5s ease-out;
     transform: translateX(-20vw);
-    /*    -webkit-filter: contrast(125%);*/
     opacity: 1;
   }
 
@@ -158,21 +157,22 @@
     grid-row-end: first;
     padding: 4vmin 4vmin;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
   }
 
   .about-me-headshot {
-    max-height: 50vmax;
+    max-height: 100%;
   }
 
   .about-tagline {
-    display: inline-block;
-    font-size: 3vmin;
+    display: block;
+    font-size: 3em;
     margin-bottom: 4vh;
     text-align: center;
-    margin-left: 30vmin;
-    margin-right: 30vmin;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: var(--fifth-font), sans-serif;
     font-weight: bold;
     line-height: 1.4;

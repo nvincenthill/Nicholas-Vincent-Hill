@@ -4,6 +4,7 @@ import Blurb from "./Blurb";
 import Footer from "./Footer";
 import Header from "./Header";
 
+import GithubCorner from "react-github-corner";
 import { Fade } from "react-reveal";
 import "babel-polyfill";
 
@@ -26,20 +27,26 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <GithubCorner
+          href="https://github.com/nvincenthill"
+          className="corner"
+          octoColor="#222831"
+          bannerColor="#EEEEEE"
+          size={135}
+        />
         <Header
           title="Nicholas Vincent-Hill"
           icon="ios-contact"
           buttonsHidden="true"
         />
         <NavCard handleRoute={this.handleRoute} />
-        <Fade>
-          <div>
-            <h2 className="about-tagline">
-              I'm a software engineer designing and building responsive
-              mobile-first web applications
-            </h2>
-          </div>
-        </Fade>
+        <h2 className="about-tagline">
+          I'm an engineer
+          <br />
+          designing responsive
+          <br />
+          mobile-first web applications
+        </h2>
         <Blurb />
         <Fade>
           <div>
@@ -55,13 +62,7 @@ class App extends React.Component {
               exhibited wisdom way beyond her years. I would hire her again in a
               nanosecond!"
               <br /> <br />
-              <a
-                href="https://www.linkedin.com/in/melody-shieh-66456b67/detail/recommendation/write/"
-                target="_blank"
-                className="about-blurb-text-mobile"
-              >
-                Vincent K., Dang Foods CEO
-              </a>
+              Vincent K., Dang Foods CEO
             </p>
           </div>
         </Fade>

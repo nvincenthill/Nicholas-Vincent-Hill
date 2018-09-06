@@ -1,5 +1,5 @@
 {
-  "name": "melody-shieh",
+  "name": "nicholas-vincent-hill",
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
@@ -31,7 +31,6 @@
     "react-router-transition": "^1.2.1",
     "react-staggered-animation": "0.0.2",
     "react-transition-group": "^2.2.1",
-    "react-typist": "^2.0.4",
     "serve": "^6.5.0",
     "stylus": "0.54.5"
   },

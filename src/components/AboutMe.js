@@ -28,7 +28,7 @@ class AboutMe extends React.Component {
             <img
               className="about-me-headshot"
               alt="did not load"
-              src="../images/aboutmephoto.jpg"
+              src="../images/headshot.jpg"
             />
           </div>
           <div className="about-description">
@@ -55,11 +55,11 @@ class AboutMe extends React.Component {
               Mocha/Chai, Redux, jQuery, Heroku, CircleCI, p5.js, SQLite, MySQL,
               PostgresSQL, Grunt, and Linux.
             </p>
-            <p className="about-description">
+            {/* <p className="about-description">
               <span className="about-hook">
                 I'd love to work with you and add value to your firm.
               </span>
-            </p>
+            </p> */}
             <div className="about-contact">
               <Link to="/Contact/">
                 <Ionicon

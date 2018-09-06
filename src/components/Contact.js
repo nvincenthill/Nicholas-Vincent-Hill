@@ -297,6 +297,17 @@ class Contact extends React.Component {
       </a>
     );
 
+    const githubIcon = (
+      <Ionicon
+        icon="logo-github"
+        color={"#222831"}
+        fontSize={iconSize}
+        beat={false}
+        onClick={() => this.handleClick("Github")}
+        className="contact-icon"
+      />
+    );
+
     return (
       <React.Fragment>
         {/* Header Message */}
@@ -330,6 +341,7 @@ class Contact extends React.Component {
         {/* Contact Buttons */}
 
         <div className="contact-container">
+          {githubIcon}
           {linkedInIcon}
           {callIcon}
           {mailIcon}
