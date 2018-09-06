@@ -1,6 +1,4 @@
 import React from "react";
-// import RestartingTypist from "./RestartingTypist";
-import { Fade } from "react-reveal";
 
 class Blurb extends React.Component {
   state = {

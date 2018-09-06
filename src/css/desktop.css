@@ -260,4 +260,8 @@
   .recomendation-container-mobile {
     display: none;
   }
+
+  .resume-container {
+    text-align: center;
+  }
 }
