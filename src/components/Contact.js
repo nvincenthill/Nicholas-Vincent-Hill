@@ -251,7 +251,7 @@ class Contact extends React.Component {
       <div className="contact-icon-copy-container">
         <Ionicon
           icon="ios-copy"
-          color="#eeeeee"
+          color="#222831"
           fontSize="2em"
           beat={false}
           shake={this.state.shake}
@@ -285,16 +285,14 @@ class Contact extends React.Component {
     );
 
     const mailIcon = (
-      <a href="mailto: melody.shieh@berkeley.edu">
-        <Ionicon
-          icon="ios-mail"
-          color="#D64A3A"
-          fontSize={iconSize}
-          beat={false}
-          onClick={() => this.handleClick("Email")}
-          className="contact-icon"
-        />
-      </a>
+      <Ionicon
+        icon="ios-mail"
+        color="#D64A3A"
+        fontSize={iconSize}
+        beat={false}
+        onClick={() => this.handleClick("Email")}
+        className="contact-icon"
+      />
     );
 
     const githubIcon = (

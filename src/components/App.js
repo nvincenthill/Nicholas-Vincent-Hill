@@ -32,7 +32,7 @@ class App extends React.Component {
           className="corner"
           octoColor="#222831"
           bannerColor="#EEEEEE"
-          size={135}
+          size={175}
         />
         <Header
           title="Nicholas Vincent-Hill"
@@ -51,19 +51,12 @@ class App extends React.Component {
         <Fade>
           <div>
             <h2 className="about-tagline-mobile">
-              I'm an engineer designing responsive mobile-first web applications
+              I'm an engineer
+              <br />
+              designing responsive
+              <br />
+              mobile-first web applications
             </h2>
-          </div>
-        </Fade>
-        <Fade>
-          <div className="recomendation-container-mobile">
-            <p className="about-blurb-text-mobile">
-              "Melody was always inquisitive, gave great recommendations, and
-              exhibited wisdom way beyond her years. I would hire her again in a
-              nanosecond!"
-              <br /> <br />
-              Vincent K., Dang Foods CEO
-            </p>
           </div>
         </Fade>
         <Footer />

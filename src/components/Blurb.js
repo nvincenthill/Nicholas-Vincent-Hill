@@ -24,9 +24,9 @@ class Blurb extends React.Component {
   componentDidUpdate() {}
   componentWillUnmount() {}
   render() {
-    const codeString = `let Nick = () => {
+    const codeString = `const Nick = () => {
       let aboutMe = {
-        skills: ['JS', 'CSS', 'Git', 'react', 'trading'],
+        skills: ['JS', 'CSS', 'Git', 'React', 'trading'],
         activities: ['hiking', 'creative coding']
       };
       for (let i = 0; i < this.aboutMe.skills.length; i += 1) {

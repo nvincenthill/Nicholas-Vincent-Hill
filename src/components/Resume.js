@@ -1,5 +1,6 @@
 import React from "react";
 import { Document, Page } from "react-pdf";
+import Ionicon from "react-ionicons";
 import resume from "../assets/currentResume.pdf";
 import Header from "./Header";
 import NavCard from "./NavCard";
@@ -18,10 +19,18 @@ class Resume extends React.Component {
           href={require("../assets/currentResume.pdf")}
           download="currentResume.pdf"
         >
-          Download my resume!
+          <p className="resume-download-button">Download my resume!</p>
+          <Ionicon
+            icon="md-download"
+            color="#222831"
+            fontSize="2em"
+            beat={true}
+            className="contact-icon-copy"
+          />
         </a>
       </div>
     );
+    const scale = window.innerWidth > 800 ? 0.6 : 0.5;
     return (
       <React.Fragment>
         <Header title="Resume" icon="ios-folder" />
@@ -29,7 +38,7 @@ class Resume extends React.Component {
         <div className="resume-container">
           {downloadButton}
           <Document className="resume" file={resume}>
-            <Page pageNumber={1} renderTextLayer={false} scale={0.75} />
+            <Page pageNumber={1} renderTextLayer={false} scale={scale} />
           </Document>
         </div>
       </React.Fragment>

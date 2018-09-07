@@ -2,7 +2,7 @@
 
 html {
   @maintitle box-sizing: border-box;
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: hidden;
   font-size: 62.5%;
   --main-font: "Arimo";
@@ -282,6 +282,7 @@ h2 {
 
 .about-headshot {
   height: 25vh;
+  margin-bottom: 2rem;
   border-radius: 50%;
   transition: 0.5s ease-out;
 }
@@ -358,7 +359,6 @@ h2 {
 
 .about-me-headshot {
   max-height: 35vmax;
-  border-radius: 10%;
 }
 
 .Typist .Cursor {
@@ -483,8 +483,8 @@ a:focus {
 }
 
 .contact-well {
-  background: var(--color4);
-  color: var(--color1);
+  background: var(--color1);
+  color: var(--color4);
   text-align: center;
   font-family: var(--third-font), sans-serif;
   font-size: 2rem;
@@ -493,8 +493,8 @@ a:focus {
 }
 
 #contact-well-input {
-  color: var(--color1);
-  background: var(--color4);
+  color: var(--color4);
+  background: var(--color1);
   border-width: 0;
   margin-top: 2vh;
   margin-bottom: 2vh;
@@ -678,4 +678,8 @@ canvas.react-pdf__Page__canvas {
 
 .prettyprint {
   padding: 1.7rem;
+}
+
+.resume-download-button {
+  text-align: center;
 }

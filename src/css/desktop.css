@@ -1,5 +1,9 @@
 /* DESKTOP */
 @media screen and (min-width: 1081px) {
+  html {
+    overflow-y: hidden;
+  }
+
   h1 {
     font-size: 4vw;
   }
@@ -122,12 +126,11 @@
   .about-description {
     text-align: center;
     margin: 4vmin 4vmin;
-    padding: 2vmin 2vmin;
-
     grid-column-start: second;
     grid-column-end: end;
     grid-row-start: first;
     grid-row-end: second;
+    padding: 0;
   }
 
   .about-description-text {
@@ -137,6 +140,7 @@
     grid-column-end: end;
     grid-row-start: first;
     grid-row-end: second;
+    margin: 2rem 0;
   }
 
   .about-tagline-mobile {
@@ -149,6 +153,7 @@
     grid-template-rows: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto [end];
     /* align-items: center; */
     justify-content: center;
+    padding: 0 15% 0 0;
   }
 
   .about-me-headshot-container {
@@ -159,7 +164,13 @@
     padding: 4vmin 4vmin;
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: flex-end;
+    -webkit-transition: 0.3s ease-in;
+  }
+
+  .about-me-headshot-container:hover {
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-in-out;
   }
 
   .about-me-headshot {
@@ -265,4 +276,12 @@
   .resume-container {
     text-align: center;
   }
+
+  /* .react-pdf__Page__canvas {
+    opacity: 0.6;
+  }
+
+  .react-pdf__Page__canvas:hover {
+    opacity: 1;
+  } */
 }

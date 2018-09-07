@@ -1,7 +1,6 @@
 import React from "react";
 import "babel-polyfill";
 import Header from "./Header";
-import Ionicon from "react-ionicons";
 import { Link } from "react-router-dom";
 import NavCard from "./NavCard";
 
@@ -28,7 +27,7 @@ class AboutMe extends React.Component {
             <img
               className="about-me-headshot"
               alt="did not load"
-              src="../images/headshot.jpg"
+              src="../images/headshot1.png"
             />
           </div>
           <div className="about-description">
@@ -39,9 +38,11 @@ class AboutMe extends React.Component {
             <p className="about-description-text">
               In a prior life as a trader, I hedged interest rate risk for
               mortgage originators with mortgage-backed securities. I've also
-              traded commodities, equities, and derivatives. As a developer, I
-              use my capital markets experience to identify and solve business
-              problems with beautiful web applications.
+              traded commodities, equities, and derivatives.
+            </p>
+            <p className="about-description-text">
+              As a developer, I use my capital markets experience to identify
+              and solve business problems with beautiful web applications.
             </p>
             <p className="about-description-text">
               When I’m not on the job, I enjoy traveling the world and urban
