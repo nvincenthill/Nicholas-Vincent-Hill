@@ -21,7 +21,15 @@ class Projects extends React.Component {
       <React.Fragment>
         <Header title="Projects" icon="ios-folder" />
         <NavCard handleRoute={this.handleRoute} />
-        <Project />
+        <Project
+          name="The Meal Panda"
+          imageSource="../images/mealpanda_showcase.png"
+          description="Menu planner & grocery list generator"
+          builtWith="React | CSS | Firebase | Jest | Node.js"
+          url="https://mealpanda.herokuapp.com/"
+          github="https://github.com/nvincenthill/mealpanda"
+          iconAnimation="tada"
+        />
       </React.Fragment>
     );
   }
