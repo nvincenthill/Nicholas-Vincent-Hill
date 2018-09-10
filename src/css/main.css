@@ -254,7 +254,7 @@ h2 {
 
 .project-tech-stack-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -262,27 +262,30 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
   padding: 0 2rem;
   flex-wrap: wrap;
+  flex: 0 0 100%;
+  max-width: 50%;
 }
 
 .project-stack-container:hover {
-  background: var(--color4);
-  transition: 0.5s ease-in-out;
+  background: white;
+  box-shadow: 3px 3px 5px var(--color2);
+  transition: 0.25s ease-in-out;
 }
 
 .project-stack-type {
-  max-width: 0;
+  display: none;
   text-align: center;
   align-content: center;
-  color: var(--color1);
+  color: var(--color2);
   font-size: 3rem;
   margin: 1rem;
   transition: 0.5s ease-in-out;
 }
 .project-stack-container:hover .project-stack-type {
-  max-width: 1000px;
+  display: block;
   transition: 0.5s ease-in-out;
 }
 
@@ -290,7 +293,7 @@ h2 {
 }
 
 .devicon {
-  font-size: 3rem;
+  font-size: 5rem;
   margin: 1rem;
   overflow-wrap: break-word;
 }
