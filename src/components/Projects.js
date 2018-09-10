@@ -30,14 +30,17 @@ class Projects extends React.Component {
           github="https://github.com/nvincenthill/mealpanda"
           iconAnimation="tada"
           stack={[
-            "react-original",
+            "html5-plain",
             "bootstrap-plain",
             "css3-plain",
             "javascript-plain",
-            "webpack-plain",
+            "react-original",
             "nodejs-plain",
+            "firebase",
+            "photoshop-plain",
             "trello-plain",
             "heroku-plain",
+            "webpack-plain",
             "git-plain"
           ]}
         />

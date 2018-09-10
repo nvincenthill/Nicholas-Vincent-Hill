@@ -686,7 +686,13 @@ canvas.react-pdf__Page__canvas {
 .devicon {
   font-size: 4rem;
   margin-top: 1rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
   overflow-wrap: break-word;
   line-height: 150%;
+}
+
+.devicon-firebase {
+  height: 4rem;
+  margin-bottom: 2.75rem;
 }

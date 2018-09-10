@@ -12,7 +12,17 @@ class Project extends React.Component {
 
   render() {
     let techStack = this.props.stack.map(tech => {
-      return <i class={`devicon-${tech} colored devicon`} />;
+      if (tech === "firebase") {
+        return (
+          <img
+            src="../images/firebase_logo.png"
+            alt="not found"
+            className="devicon-firebase"
+          />
+        );
+      } else {
+        return <i className={`devicon-${tech} colored devicon`} />;
+      }
     });
     return (
       <Fade>
