@@ -1,7 +1,6 @@
 import React from "react";
 import "babel-polyfill";
 import Header from "./Header";
-import { Link } from "react-router-dom";
 import NavCard from "./NavCard";
 
 class AboutMe extends React.Component {
