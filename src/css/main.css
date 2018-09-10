@@ -229,8 +229,6 @@ h2 {
   width: 100%;
   display: block;
   margin: 0 auto;
-  margin-bottom: 1vh;
-  margin-top: 2vh;
 }
 
 .project_title {
@@ -244,7 +242,6 @@ h2 {
 .project_description {
   color: var(--color4);
   font-size: 2vmin;
-  margin-top: 2vh;
   opacity: 0.95;
 }
 
@@ -682,4 +679,9 @@ canvas.react-pdf__Page__canvas {
 
 .resume-download-button {
   text-align: center;
+}
+
+.devicon {
+  font-size: 5rem;
+  margin-right: 1rem;
 }

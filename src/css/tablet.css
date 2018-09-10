@@ -45,15 +45,10 @@
 
   .project_image {
     width: 100%;
-    margin-top: 0vh;
   }
 
   .project_tech {
     font-size: 1.5rem;
-  }
-
-  .project_description {
-    margin: 3vmin 10vmin;
   }
 
   .project_image {

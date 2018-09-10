@@ -25,10 +25,17 @@ class Projects extends React.Component {
           name="The Meal Panda"
           imageSource="../images/mealpanda_showcase.png"
           description="Menu planner & grocery list generator"
-          builtWith="React | CSS | Firebase | Jest | Node.js"
+          builtWith=""
           url="https://mealpanda.herokuapp.com/"
           github="https://github.com/nvincenthill/mealpanda"
           iconAnimation="tada"
+          stack={[
+            "react-original",
+            "css3-plain",
+            "firebase",
+            "Jest",
+            "Node.js"
+          ]}
         />
       </React.Fragment>
     );

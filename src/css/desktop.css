@@ -69,8 +69,6 @@
 
   .project_image {
     width: 50%;
-    margin-top: 4vmin;
-    margin-bottom: 4vmin;
   }
 
   .project_tech {
@@ -78,7 +76,7 @@
   }
 
   .project_description {
-    margin: 4vmin 10vmin;
+    margin: 2vh 0;
   }
 
   .project-array-container {
