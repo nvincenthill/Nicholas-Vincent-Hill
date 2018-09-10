@@ -225,27 +225,29 @@ h2 {
   padding: 2vh;
 }
 
-.project_image {
+.project-image {
   width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-.project_title {
-  font-size: 4vmin;
+.project-title {
+  font-size: 3rem;
   font-weight: bold;
   font-family: var(--main-font), sans-serif;
   color: var(--color4);
   opacity: 0.95;
 }
 
-.project_description {
+.project-description {
   color: var(--color4);
-  font-size: 2vmin;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   opacity: 0.95;
 }
 
-.project_tech {
+.project-tech {
   color: var(--color3);
   font-size: 1rem;
 }
@@ -682,6 +684,9 @@ canvas.react-pdf__Page__canvas {
 }
 
 .devicon {
-  font-size: 5rem;
+  font-size: 4rem;
+  margin-top: 1rem;
   margin-right: 1rem;
+  overflow-wrap: break-word;
+  line-height: 150%;
 }

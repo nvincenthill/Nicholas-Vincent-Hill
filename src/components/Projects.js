@@ -31,10 +31,14 @@ class Projects extends React.Component {
           iconAnimation="tada"
           stack={[
             "react-original",
+            "bootstrap-plain",
             "css3-plain",
-            "firebase",
-            "Jest",
-            "Node.js"
+            "javascript-plain",
+            "webpack-plain",
+            "nodejs-plain",
+            "trello-plain",
+            "heroku-plain",
+            "git-plain"
           ]}
         />
       </React.Fragment>

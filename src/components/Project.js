@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 class Project extends React.Component {
   state = {};
@@ -14,18 +15,20 @@ class Project extends React.Component {
       return <i class={`devicon-${tech} colored devicon`} />;
     });
     return (
-      <div className="project">
-        <a href={this.props.url}>
-          <img
-            className="project_image"
-            src={this.props.imageSource}
-            alt="Did not load"
-          />
-          <h2 className="project_title"> {this.props.name} </h2>
-        </a>
-        <h3 className="project_description">{this.props.description}</h3>
-        {techStack}
-      </div>
+      <Fade>
+        <div className="project">
+          <a href={this.props.url}>
+            <img
+              className="project-image"
+              src={this.props.imageSource}
+              alt="Did not load"
+            />
+            <h2 className="project-title"> {this.props.name} </h2>
+          </a>
+          <h3 className="project-description">{this.props.description}</h3>
+          {techStack}
+        </div>
+      </Fade>
     );
   }
 }

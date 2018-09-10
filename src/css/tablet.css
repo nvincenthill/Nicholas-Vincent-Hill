@@ -43,15 +43,15 @@
   .project {
   }
 
-  .project_image {
+  .project-image {
     width: 100%;
   }
 
-  .project_tech {
+  .project-tech {
     font-size: 1.5rem;
   }
 
-  .project_image {
+  .project-image {
     width: 50%;
     margin-top: 3vmin;
     margin-bottom: 3vmin;

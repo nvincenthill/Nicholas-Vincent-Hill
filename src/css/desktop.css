@@ -67,15 +67,15 @@
     margin-bottom: 4vh;
   }
 
-  .project_image {
+  .project-image {
     width: 50%;
   }
 
-  .project_tech {
+  .project-tech {
     font-size: 1.5rem;
   }
 
-  .project_description {
+  .project-description {
     margin: 2vh 0;
   }
 
