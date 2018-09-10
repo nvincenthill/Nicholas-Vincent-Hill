@@ -29,14 +29,15 @@ class Projects extends React.Component {
           url="https://mealpanda.herokuapp.com/"
           github="https://github.com/nvincenthill/mealpanda"
           iconAnimation="tada"
-          stack={[
+          frontEndStack={[
             "html5-plain",
             "bootstrap-plain",
             "css3-plain",
             "javascript-plain",
-            "react-original",
-            "nodejs-plain",
-            "firebase",
+            "react-original"
+          ]}
+          backEndStack={["nodejs-plain", "firebase"]}
+          tools={[
             "photoshop-plain",
             "trello-plain",
             "heroku-plain",

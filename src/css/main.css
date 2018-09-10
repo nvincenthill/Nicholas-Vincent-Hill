@@ -252,6 +252,54 @@ h2 {
   font-size: 1rem;
 }
 
+.project-tech-stack-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-stack-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+
+.project-stack-container:hover {
+  background: var(--color4);
+  transition: 0.5s ease-in-out;
+}
+
+.project-stack-type {
+  max-width: 0;
+  text-align: center;
+  align-content: center;
+  color: var(--color1);
+  font-size: 3rem;
+  margin: 1rem;
+  transition: 0.5s ease-in-out;
+}
+.project-stack-container:hover .project-stack-type {
+  max-width: 1000px;
+  transition: 0.5s ease-in-out;
+}
+
+.project-stack-container:hover .devicon {
+}
+
+.devicon {
+  font-size: 3rem;
+  margin: 1rem;
+  overflow-wrap: break-word;
+}
+
+.devicon-firebase {
+  margin: 1rem;
+  height: 4rem;
+}
+
 .project-array-container {
   margin-left: 8vw;
   margin-right: 8vw;
@@ -681,18 +729,4 @@ canvas.react-pdf__Page__canvas {
 
 .resume-download-button {
   text-align: center;
-}
-
-.devicon {
-  font-size: 4rem;
-  margin-top: 1rem;
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
-  overflow-wrap: break-word;
-  line-height: 150%;
-}
-
-.devicon-firebase {
-  height: 4rem;
-  margin-bottom: 2.75rem;
 }
