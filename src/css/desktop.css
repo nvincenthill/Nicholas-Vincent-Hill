@@ -33,6 +33,10 @@
     z-index: 10;
   }
 
+  .project-image-container {
+    position: relative;
+  }
+
   .nav_container {
     /*    justify-content: center;*/
     text-align: center;
@@ -64,7 +68,7 @@
   }
 
   .project {
-    margin-bottom: 4vh;
+    margin: 0 2vw 0 2vw;
   }
 
   .project-image {
@@ -83,8 +87,12 @@
     justify-content: center;
   }
 
+  .project-title {
+    font-size: 4rem;
+  }
+
   .project-stack-container {
-    min-width: 30%;
+    min-width: 25%;
     padding: 2rem;
   }
 
@@ -280,12 +288,4 @@
   .resume-container {
     text-align: center;
   }
-
-  /* .react-pdf__Page__canvas {
-    opacity: 0.6;
-  }
-
-  .react-pdf__Page__canvas:hover {
-    opacity: 1;
-  } */
 }

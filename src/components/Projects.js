@@ -35,17 +35,34 @@ class Projects extends React.Component {
             "javascript-plain",
             "react-original"
           ]}
+          frontEndStackNames={[
+            "HTML5",
+            "React Bootstrap",
+            "CSS3",
+            "JavaScript",
+            "React.js"
+          ]}
           backEndStack={[
             "nodejs-plain",
             // "express-original-wordmark",
             "firebase"
           ]}
+          backEndStackNames={["Node.js"]}
           tools={[
+            "visualstudio-plain",
             "photoshop-plain",
             "trello-plain",
-            "heroku-plain",
             "webpack-plain",
+            "heroku-plain",
             "git-plain"
+          ]}
+          toolsNames={[
+            "VSCode",
+            "Photoshop",
+            "Trello",
+            "Webpack",
+            "Heroku",
+            "Git"
           ]}
         />
         <Project
@@ -62,7 +79,15 @@ class Projects extends React.Component {
             "javascript-plain",
             "react-original"
           ]}
+          frontEndStackNames={[
+            "HTML5",
+            "React Bootstrap",
+            "CSS3",
+            "JavaScript",
+            "React.js"
+          ]}
           backEndStack={["nodejs-plain", "firebase"]}
+          backEndStackNames={["Node.js", "Firebase"]}
           tools={[
             "photoshop-plain",
             "trello-plain",
@@ -70,6 +95,7 @@ class Projects extends React.Component {
             "webpack-plain",
             "git-plain"
           ]}
+          toolsNames={["Photoshop", "Trello", "Heroku", "Webpack", "Git"]}
         />
         <Project
           name="Scrabblr"
@@ -81,12 +107,20 @@ class Projects extends React.Component {
           iconAnimation="rubberBand"
           frontEndStack={[
             "html5-plain",
-            "bootstrap-plain",
             "css3-plain",
+            "bootstrap-plain",
             "javascript-plain",
             "react-original"
           ]}
+          frontEndStackNames={[
+            "HTML5",
+            "CSS3",
+            "React Bootstrap",
+            "JavaScript",
+            "React.js"
+          ]}
           backEndStack={["nodejs-plain", "firebase"]}
+          backEndStackNames={["Node.js", "Firebase"]}
           tools={[
             "photoshop-plain",
             "trello-plain",
@@ -94,6 +128,7 @@ class Projects extends React.Component {
             "webpack-plain",
             "git-plain"
           ]}
+          toolsNames={["Photoshop", "Trello", "Heroku", "Webpack", "Git"]}
         />
       </React.Fragment>
     );
