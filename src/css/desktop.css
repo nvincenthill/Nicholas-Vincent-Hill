@@ -199,7 +199,6 @@
     margin-right: auto;
     font-family: var(--fifth-font), sans-serif;
     font-weight: bold;
-    line-height: 1.4;
     color: var(--color4);
   }
 
@@ -287,5 +286,9 @@
 
   .resume-container {
     text-align: center;
+  }
+
+  pre code {
+    font-size: 1.5rem;
   }
 }

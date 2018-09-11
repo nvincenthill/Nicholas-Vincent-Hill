@@ -68,23 +68,23 @@ class Project extends React.Component {
     return (
       <Fade>
         <div className="project">
-          <a href={this.props.url}>
-            <div className="project-image-container">
-              <a href={this.props.github}>
-                <i
-                  className={`devicon-github-plain-wordmark colored project-github-icon`}
-                />
-              </a>
+          <div className="project-image-container">
+            <a href={this.props.github}>
+              <i
+                className={`devicon-github-plain-wordmark colored project-github-icon`}
+              />
+            </a>
+            <a href={this.props.url}>
               <img
                 className="project-image"
                 src={this.props.imageSource}
                 alt="Did not load"
               />
-            </div>
+            </a>
+          </div>
 
-            <h2 className="project-title"> {this.props.name} </h2>
-            <h3 className="project-description">{this.props.description}</h3>
-          </a>
+          <h2 className="project-title"> {this.props.name} </h2>
+          <h3 className="project-description">{this.props.description}</h3>
           <div className="project-tech-stack-container">
             <div className="project-stack-container">
               <div className="project-stack-type">FRONTEND</div>
