@@ -80,7 +80,8 @@
   }
 
   .project-description {
-    margin: 2vh 0;
+    margin: 2vh 20%;
+    line-height: 4rem;
   }
 
   .project-tech-stack-container {

@@ -2,10 +2,10 @@ import React from "react";
 import Code from "react-code-prettify";
 class Blurb extends React.Component {
   state = {
-    image1: "../images/nickheadshot.jpg",
-    image2: "../images/nickheadshot.jpg",
+    image1: "../images/nickheadshot1.png",
+    image2: "../images/nickheadshot1.png",
     currentImageNumber: 1,
-    currentImage: "../images/nickheadshot.jpg"
+    currentImage: "../images/nickheadshot1.png"
   };
 
   updatePhoto() {

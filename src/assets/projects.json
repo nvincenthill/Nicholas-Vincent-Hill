@@ -53,17 +53,14 @@
       "JavaScript",
       "React.js"
     ],
-    "backEndStack": ["nodejs-plain", "firebase"],
-    "backEndStackNames": ["Node.js"],
     "tools": [
       "visualstudio-plain",
-      "photoshop-plain",
       "trello-plain",
       "webpack-plain",
       "heroku-plain",
       "git-plain"
     ],
-    "toolsNames": ["VSCode", "Photoshop", "Trello", "Webpack", "Heroku", "Git"]
+    "toolsNames": ["VSCode", "Trello", "Webpack", "Heroku", "Git"]
   },
   {
     "name": "Scrabblr",
@@ -86,17 +83,14 @@
       "JavaScript",
       "React.js"
     ],
-    "backEndStack": ["nodejs-plain", "firebase"],
-    "backEndStackNames": ["Node.js"],
     "tools": [
       "visualstudio-plain",
-      "photoshop-plain",
       "trello-plain",
       "webpack-plain",
       "heroku-plain",
       "git-plain"
     ],
-    "toolsNames": ["VSCode", "Photoshop", "Trello", "Webpack", "Heroku", "Git"]
+    "toolsNames": ["VSCode", "Trello", "Webpack", "Heroku", "Git"]
   },
   {
     "name": "AirFEC",
@@ -107,61 +101,72 @@
     "iconAnimation": "rubberBand",
     "frontEndStack": [
       "html5-plain",
-      "bootstrap-plain",
       "css3-plain",
       "javascript-plain",
       "react-original"
     ],
-    "frontEndStackNames": [
-      "HTML5",
-      "React Bootstrap",
-      "CSS3",
-      "JavaScript",
-      "React.js"
-    ],
-    "backEndStack": ["nodejs-plain", "firebase"],
-    "backEndStackNames": ["Node.js"],
+    "frontEndStackNames": ["HTML5", "CSS3", "JavaScript", "React.js"],
+    "backEndStack": ["nodejs-plain", "express-original", "mongodb-plain"],
+    "backEndStackNames": ["Node.js", "Express", "MongoDB"],
     "tools": [
       "visualstudio-plain",
-      "photoshop-plain",
       "trello-plain",
+      "babel-plain",
       "webpack-plain",
-      "heroku-plain",
+      "grunt-line",
+      "docker-plain",
+      "amazonwebservices-original",
       "git-plain"
     ],
-    "toolsNames": ["VSCode", "Photoshop", "Trello", "Webpack", "Heroku", "Git"]
+    "toolsNames": [
+      "VSCode",
+      "Trello",
+      "Babel",
+      "Webpack",
+      "Grunt",
+      "Docker",
+      "AWS EC2",
+      "Git"
+    ]
   },
   {
     "name": "AirSDC",
     "imageSource": "../images/empty_showcase.png",
-    "description": "Menu planner & grocery list generator",
+    "description": "System-design case study load-testing server/database choices, optimizations, node-clustering, and caching",
     "url": "",
     "github": "https://github.com/airSDC/Nicholas-Vincent-Hill-Photo-Carousel-Service",
     "iconAnimation": "tada",
     "frontEndStack": [
       "html5-plain",
-      "bootstrap-plain",
       "css3-plain",
       "javascript-plain",
       "react-original"
     ],
-    "frontEndStackNames": [
-      "HTML5",
-      "React Bootstrap",
-      "CSS3",
-      "JavaScript",
-      "React.js"
+    "frontEndStackNames": ["HTML5", "CSS3", "JavaScript", "React.js"],
+    "backEndStack": [
+      "nodejs-plain",
+      "express-original",
+      "postgresql-plain",
+      "redis-plain"
     ],
-    "backEndStack": ["nodejs-plain", "firebase"],
-    "backEndStackNames": ["Node.js"],
+    "backEndStackNames": ["Node.js", "Express", "PostgreSQL", "Redis"],
     "tools": [
       "visualstudio-plain",
-      "photoshop-plain",
       "trello-plain",
+      "babel-plain",
       "webpack-plain",
-      "heroku-plain",
+      "docker-plain",
+      "amazonwebservices-original",
       "git-plain"
     ],
-    "toolsNames": ["VSCode", "Photoshop", "Trello", "Webpack", "Heroku", "Git"]
+    "toolsNames": [
+      "VSCode",
+      "Trello",
+      "Babel",
+      "Webpack",
+      "Docker",
+      "AWS EC2",
+      "Git"
+    ]
   }
 ]
