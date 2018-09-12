@@ -55,7 +55,7 @@ class AboutMe extends React.Component {
                 MongoDB, Express, Node.js, Git, Docker, Webpack, SQL,
                 HTML5/CSS/JS, AWS (S3, EC2, Route 53, CloudFront), Jest/Enzyme,
                 Mocha/Chai, Redux, jQuery, Heroku, CircleCI, p5.js, SQLite,
-                MySQL, PostgresSQL, Grunt, and Linux.
+                MySQL, PostgreSQL, Grunt, and Linux.
               </p>
               {/* <p className="about-description">
               <span className="about-hook">
