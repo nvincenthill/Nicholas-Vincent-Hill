@@ -96,7 +96,7 @@
     "name": "AirFEC",
     "imageSource": "../images/empty_showcase.png",
     "description": "MERN-stack app based on a popular online marketplace for people to rent short-term lodging",
-    "url": "",
+    "url": "https://github.com/airfec/airFEC-Nicholas-Vincent-Hill",
     "github": "https://github.com/airfec/airFEC-Nicholas-Vincent-Hill",
     "iconAnimation": "rubberBand",
     "frontEndStack": [
@@ -133,7 +133,7 @@
     "name": "AirSDC",
     "imageSource": "../images/empty_showcase.png",
     "description": "System-design case study load-testing server/database choices, optimizations, node-clustering, and caching",
-    "url": "",
+    "url": "https://github.com/airSDC/Nicholas-Vincent-Hill-Photo-Carousel-Service",
     "github": "https://github.com/airSDC/Nicholas-Vincent-Hill-Photo-Carousel-Service",
     "iconAnimation": "tada",
     "frontEndStack": [

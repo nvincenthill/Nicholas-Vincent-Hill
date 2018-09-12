@@ -69,7 +69,16 @@
 
   .project {
     margin: 0 2vw 0 2vw;
+    padding: 0;
   }
+
+  .project-github-icon {
+    display: block;
+  }
+
+  /* .project-stack-type {
+    margin: 0 1rem;
+  } */
 
   .project-image {
     width: 50%;
@@ -81,6 +90,7 @@
 
   .project-description {
     margin: 2vh 20%;
+    font-size: 3rem;
     line-height: 4rem;
   }
 
@@ -95,6 +105,24 @@
   .project-stack-container {
     min-width: 25%;
     padding: 2rem;
+  }
+
+  .devicon {
+    font-size: 4.5rem;
+    margin: 0 1rem;
+    overflow-wrap: break-word;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .devicon-firebase {
+    height: 4rem;
+  }
+
+  .project-stack-container {
+    flex: 0 1 auto;
+    max-width: none;
+    margin: 0;
   }
 
   .about-headshot {
