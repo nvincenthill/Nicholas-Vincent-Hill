@@ -28,7 +28,7 @@ npm test
 
 ## Deployment
 
-Deployed with AWS here - _NOT DEPLOYED YET_
+Deployed with AWS here - _http://www.nickvh.fun_
 
 ## Built With
 
