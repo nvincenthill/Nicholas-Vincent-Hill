@@ -1,4 +1,4 @@
-# Nicholas Vincent-Hill Portfolio Website
+# Nicholas Vincent-Hill's Portfolio Website
 
 This is a portfolio site to display my personal projects and provide my resume and contact information to potential employers.
 
