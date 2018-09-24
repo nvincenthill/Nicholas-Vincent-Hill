@@ -33,6 +33,9 @@ Deployed with AWS here - _http://www.nickvh.fun_
 ## Built With
 
 - [React](https://reactjs.org/) - The JS framework used
+- [Grunt](https://gruntjs.com/) - The task-runner used
+- [React-Bootstrap](https://react-bootstrap.github.io/) - The CSS framework used
+- [AWS](https://aws.amazon.com/) - Deployed to AWS S3 static web-hosting with Route53 routing
 
 ## Contributing
 
