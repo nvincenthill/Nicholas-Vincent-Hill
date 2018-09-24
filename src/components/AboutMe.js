@@ -2,6 +2,7 @@ import React from "react";
 import "babel-polyfill";
 import Header from "./Header";
 import NavCard from "./NavCard";
+
 import { Fade } from "react-reveal";
 
 class AboutMe extends React.Component {
