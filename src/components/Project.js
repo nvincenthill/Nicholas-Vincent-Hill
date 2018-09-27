@@ -11,8 +11,8 @@ class Project extends React.Component {
         </Tooltip>
       );
       return (
-        <OverlayTrigger placement="top" overlay={tooltip}>
-          <i className={`devicon-${tech} colored devicon`} key={idx} />
+        <OverlayTrigger placement="top" overlay={tooltip} key={idx}>
+          <i className={`devicon-${tech} colored devicon`} />
         </OverlayTrigger>
       );
     });
@@ -30,12 +30,15 @@ class Project extends React.Component {
               </Tooltip>
             );
             return (
-              <OverlayTrigger placement="top" overlay={firebaseTooltip}>
+              <OverlayTrigger
+                placement="top"
+                overlay={firebaseTooltip}
+                key={idx}
+              >
                 <img
                   src="../images/firebase-logo-built_black.svg"
                   alt="not found"
                   className="devicon-firebase devicon"
-                  key={idx}
                 />
               </OverlayTrigger>
             );
@@ -56,7 +59,7 @@ class Project extends React.Component {
       );
       return (
         <OverlayTrigger placement="top" overlay={tooltip} key={idx}>
-          <i className={`devicon-${tech} colored devicon`} key={idx} />
+          <i className={`devicon-${tech} colored devicon`} />
         </OverlayTrigger>
       );
     });

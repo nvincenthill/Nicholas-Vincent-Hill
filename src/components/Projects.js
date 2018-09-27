@@ -20,8 +20,8 @@ class Projects extends React.Component {
   componentWillUnmount() {}
 
   render() {
-    let projectsViews = projects.map(project => {
-      return <Project {...project} />;
+    let projectsViews = projects.map((project, index) => {
+      return <Project {...project} key={index} />;
     });
     return (
       <React.Fragment>
